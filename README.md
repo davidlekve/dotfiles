@@ -25,7 +25,7 @@ and are listed in `.gitignore`.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
 
 # 2. clone the bare repo
-git clone --bare git@github.com:YOURNAME/dotfiles.git "$HOME/.dotfiles"
+git clone --bare git@github.com:davidlekve/dotfiles.git "$HOME/.dotfiles"
 
 # 3. define the alias for this shell session
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
