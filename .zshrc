@@ -107,7 +107,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 PROMPT='%F{240}%D{%H:%M:%S}%f %F{blue}%~%f %F{green}$(git rev-parse --abbrev-ref HEAD 2>/dev/null | sed "s/^/(/; s/$/)/")%f$ '
 
-#export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 [[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 [[ -f "$HOME/.zsh_secrets" ]] && source "$HOME/.zsh_secrets"
